@@ -21,7 +21,7 @@ This Chrome extension includes a side panel that allows users to input the OpenA
 
 1. Once the extension is installed, click on the extension icon in the toolbar.
 2. The side panel will appear with input fields for the OpenAI API URL, token, and element description.
-3. Enter the required information.
+3. Enter the required information. OpenAi Api url must be like http://localhost:5000/v1/chat/completions
 4. Click the submit button to send a request to the OpenAI API.
 
 ## Important
