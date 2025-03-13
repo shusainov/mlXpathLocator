@@ -1,0 +1,6 @@
+{
+    "codegpt.customServerUrl": "http://192.168.0.222:5000/v1",
+    "codegpt.model": "custom",
+    "codegpt.maxLength": 4096,
+    "codegpt.temperature": 0.1
+}

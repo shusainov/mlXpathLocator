@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "OpenAI Side Panel",
+    "version": "1.0",
+    "description": "A Chrome extension to interact with the OpenAI API",
+    "permissions": ["sidePanel", "activeTab", "tabs","scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["*://*/*"],
+    "action": {
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "side_panel": {
+      "default_path": "side_panel.html",
+      "id": "openai-side-panel"
+    }
+  }

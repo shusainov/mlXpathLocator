@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OpenAI Side Panel</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    input, button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>OpenAI Side Panel</h1>
+  <label for="apiUrl">API URL:</label>
+  <input type="text" id="apiUrl" placeholder="Enter API URL">
+  <label for="token">Token:</label>
+  <input type="text" id="token" placeholder="Enter Token">
+  <label for="question">Question:</label>
+  <input type="text" id="question" placeholder="Enter your question">
+  <button id="submitButton">Submit</button>
+  <div id="response"></div>
+
+  <script src="side_panel.js"></script>
+</body>
+</html>
